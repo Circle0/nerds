@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Nerd's desin studio </title>	
+</head>
+<body>
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="main-header-logo">
+				<img src="img/logo.jpg" width="50" height="20" alt="Логотип">
+			</a>
+			<ul class="site-navigation">
+				<li><a href="index.html">Студия</a></li>
+				<li><a href="clients.html">Клиенты</a></li>
+				<li>Магазин</li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<ul class="user-navigation">
+				<li><a href="basket.html">Корзина</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<h1 class="visually-hidden">Магазин готовых шаблонов</h1>
+		
+		<section class="filter">
+			<h2 class="visually-hidden">Фильтр отбора</h2>
+			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Стоимость:</legend>
+					<ul>
+						<li class="filter-option">
+							от<input type="text" name="from">
+						</li>
+						<li class="filter-option">
+							до<input type="text" name="to">
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Сетка:</legend>
+					<ul>
+						<li class="filter-option">
+							  <input class="filter-input-radio" type="radio" name="grid" value="adaptive">Адаптивная
+						</li>
+						<li class="filter-option">
+							  <input class="filter-input-radio" type="radio" name="grid" value="fixed-rubber">Фиксированная<br>
+							  Резиновая
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Особенности:</legend>
+					<ul>
+						<li class="filter-option">
+							 <input class="filter-input filter-input-checkbox" type="checkbox" name="slider" checked>
+                                Слайдер
+						</li>
+						<li class="filter-option">
+							 <input class="filter-input filter-input-checkbox" type="checkbox" name="block-of-advantages" checked>
+                                Блок преимуществ
+						</li>
+						<li class="filter-option">
+							 <input class="filter-input filter-input-checkbox" type="checkbox" name="news" checked>
+                                Новости
+						</li>
+						<li class="filter-option">
+							 <input class="filter-input filter-input-checkbox" type="checkbox" name="gallery" checked>
+                                Галерея
+						</li>
+						<li class="filter-option">
+							 <input class="filter-input filter-input-checkbox" type="checkbox" name="basket" checked>
+                                Корзина
+						</li>
+					</ul>
+				</fieldset>
+				<button type="submit" class="filter-button button">Показать</button>
+			</form>	
+		</section>
+		<section class="sorting-filter">
+			<h2>Сортировать:</h2>
+			<form class="sorting-filter-option" method="get" action="https://echo.htmlacademy.ru">
+				<fieldset>	
+					<legend class="visually-hidden">Тип сортировки</legend>	
+						<ul>
+							<li class="filter-option">
+								  <input class="filter-input-radio" type="radio" name="sort-type" value="price">По цене
+							</li>
+							<li class="filter-option">
+								  <input class="filter-input-radio" type="radio" name="sort-type" value="type">По типу
+							</li>
+							<li class="filter-option">
+								  <input class="filter-input-radio" type="radio" name="sort-type" value="name">По названию
+							</li>
+						</ul>
+				</fieldset>
+				<fieldset>	
+					<legend class="visually-hidden">Направление сортировки</legend>	
+						<ul>
+							<li class="filter-option">
+								  <input class="filter-input-radio" type="radio" name="sorting-direction" value="direct">Прямой
+							</li>
+							<li class="filter-option">
+								  <input class="filter-input-radio" type="radio" name="sorting-direction" value="reverse">Обратный
+							</li>
+						</ul>
+				</fieldset>
+				<button type="submit" class="filter-button button">Сортировать</button>	
+			</form>
+		</section>
+		<section class="catalog">
+			<h2 class="visually-hidden">Каталог</h2>
+			<ul>
+				<li>
+					<a href="catalog-item">Sedona</a>
+					<p>Информационный сайт для туристов</p>
+					<a class="button" href="#">Купить</a>
+					 <img src="img/product-1.jpg" width="200" height="500" alt="Вариант сайта №1">
+				</li>
+				<li>
+					<a href="catalog-item">Pink</a>
+					<p>Описание сайта</p>
+					<a class="button" href="#">Купить</a>
+					<img src="img/product-1.jpg" width="200" height="500" alt="Вариант сайта №2">
+				</li>
+				<li>
+					<a href="catalog-item">Borodinski</a>
+					<p>Описание сайта</p>
+					<a class="button" href="#">Купить</a>
+					 <img src="img/product-1.jpg" width="200" height="500" alt="Вариант сайта №3">
+				</li>
+				<li>
+					<a href="catalog-item">Mishka</a>
+					<p>Описание сайта</p>
+					<a class="button" href="#">Купить</a>
+					<img src="img/product-1.jpg" width="200" height="500" alt="Вариант сайта №4">
+				</li>
+				<li>
+					<a href="catalog-item">Shoole</a>
+					<p>Описание сайта</p>
+					<a class="button" href="#">Купить</a>
+					<img src="img/product-1.jpg" width="200" height="500" alt="Вариант сайта №5">
+				</li>
+				<li>
+					<a href="catalog-item">КРАСТ</a>
+					<p>Описание сайта</p>
+					<a class="button" href="#">Купить</a>
+					<img src="img/product-1.jpg" width="200" height="500" alt="Вариант сайта №6">
+				</li>
+			</ul>
+			<ul class="pagination-list">
+                <li class="pagination-item"><a href="#">1</a></li>
+                <li class="pagination-item pagination-item-current"><a>2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+                <li class="pagination-item"><a href="#">Следующая</a></li>
+            </ul>
+		</section>	
+	</main>
+	<footer class="main-footer">
+			<section class="footer-contacts">
+				<h2 class="visually-hidden">Контактные данные</h2>
+            <b>Nerds desisgn studio</b><br>
+            191186, Санкт-Петербург,<br>
+            ул Б. Конюшенная, д. 19/8<br>
+            <br>
+            тел. +7 (812) 275-75-75
+            <a class="button" href="#">Напишите нам</a>
+        </section>
+			<section class="footer-social">
+				<h2 class="visually-hidden">Ссылки на социальные сети</h2>
+            <p>Давайте дружить, это выгодно!</p>
+            <b>Скидка 10% для друзей из социальных сетей.</b>
+            <ul>
+                <li><a class="social-button" href="#">Вконтакте</a></li>
+                <li><a class="social-button" href="#">Фейсбук</a></li>
+                <li><a class="social-button" href="#">Инстаграм</a></li>
+            </ul>
+        </section>
+ 	</footer>
+
+</body>
+</html>
